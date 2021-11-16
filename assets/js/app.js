@@ -13,11 +13,7 @@
         const liveTimeBox = $('.jp-current-time');
         const volumeValue = $('.jp-volume-bar-value');
 
-        const songs = [
-            "http://localhost:8000/wp_test/wp-content/plugins/mp3-player/assets/musics/Epic-Trailer.mp3?title=Epic-Trailer",
-            "http://localhost:8000/wp_test/wp-content/plugins/mp3-player/assets/musics/maxkomusic-heroism.mp3?title=maxkomusic-heroism",
-            "http://localhost:8000/wp_test/wp-content/plugins/mp3-player/assets/musics/The-Inspiration-mp3.mp3?title=The-Inspiration"
-        ];
+        const songs = song_arr_object.song_arr;
 
         $.each(songs, function (index, value) {
             let title = value.split('?')[1].split('=')[1];
