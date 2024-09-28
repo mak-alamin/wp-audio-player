@@ -7,7 +7,7 @@
   bottom: 0;
 }
 .mp3-player-box {
-  background-color: #000f6e;
+  background-color: #005a87;
   color: #ffffff;
   width: 100%;
 }
@@ -64,8 +64,8 @@ div.jp-progress {
   position: absolute;
   width: 100%;
   z-index: 100;
-  background: #000f6e66;
-  border-top: 2px solid #000f6ebd;
+  background: #006ba1c9;
+  border-top: 2px solid #006ba1bd;
   cursor: pointer;
 }
 
